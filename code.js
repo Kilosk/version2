@@ -239,9 +239,9 @@ function genRed(i){
 		document.getElementsByClassName('pic')[0].style.backgroundImage= "url(p6.png)";
 				break;
 		case 4: document.getElementById('textCard').innerHTML = " НАРИСУЙ ПОРТРЕТ ";
-		document.getElementsByClassName('pic')[0].style.backgroundImage= "url(p1.png)";
 		whatMan();
-		document.getElementById('textCard').innerHTML = ". У ТЕБЯ ЕСТЬ ОДИН КРУГ НА ЭТО. НЕ ПОЛУЧИЛОСЬ - ПЬЕШЬ ";
+		document.getElementById('textCard').innerHTML += ". У ТЕБЯ ЕСТЬ ОДИН КРУГ НА ЭТО. НЕ ПОЛУЧИЛОСЬ - ПЬЕШЬ ";
+		document.getElementsByClassName('pic')[0].style.backgroundImage= "url(p1.png)";
 		break;
 		case 5: document.getElementById('textCard').innerHTML = " ЗАДАЙ ЛЮБОЙ ВОПРОС ДЛЯ ";
 		whatMan();
